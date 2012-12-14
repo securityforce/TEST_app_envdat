@@ -8,7 +8,7 @@ $(document).bind('deviceready', function(){
                 type: 'POST',
                 data: postData+'&lid='+dataID,
                 // cargamos la url del servidor externo
-                url: 'http://securityforce.com.do/test/guardar.php',
+                url: 'http://securityforce.com.do/test_77/guardar.php',
                 success: function(data){
                     console.log(data);
                     $('#email').val('');
